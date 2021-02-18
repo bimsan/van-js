@@ -43,3 +43,67 @@ h1 {
   z-index: -1;
   animation: fadeIn 0.6s linear;
 }
+
+.js-clock__text {
+  color: white;
+  font-size: 100px;
+}
+
+.js-clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  margin-top: 300px;
+  height: 100px;
+}
+
+.greeting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.js-greetings {
+  color: #ecf0f1;
+  font-size: 50px;
+  font-style: oblique;
+}
+
+.js-toDoForm {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.js-toDoForm input {
+  height: 30px;
+  width: 60%;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom: 2.5px solid #ecf0f1;
+  padding: 13px;
+  font-size: 25px;
+}
+
+.js-toDoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.toDo {
+  color: #ecf0f1;
+  font-size: 18px;
+}
+
+.js-weather {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 18px;
+}

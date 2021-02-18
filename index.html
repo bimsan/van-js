@@ -1,24 +1,32 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>something</title>
+    <title>Sean's momentum</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="index.css" />
   </head>
 
   <body>
     <div class="js-clock">
-      <h1>00:00</h1>
+      <h1 class="js-clock__text">00:00</h1>
     </div>
+    <!-- Greeting JS -->
     <form class="js-form form">
       <input type="text" placeholder="What is your name?" />
     </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-      <input type="text" placeholder="Write a to do" />
-    </form>
-    <ul class="js-toDoList"></ul>
+    <!-- component -->
+    <div class="component-containner">
+      <div class="greeting">
+        <h4 class="js-greetings greetings"></h4>
+      </div>
+      <form class="js-toDoForm">
+        <input type="text" placeholder="Write a to do" />
+      </form>
+      <ul class="js-toDoList"></ul>
+    </div>
+
     <span class="js-weather"></span>
+
     <script src="clock.js"></script>
     <script src="greetting.js"></script>
     <script src="todo.js"></script>
