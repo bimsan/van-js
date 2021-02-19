@@ -43,6 +43,7 @@ h1 {
   object-fit: cover;
   z-index: -1;
   animation: fadeIn 0.6s linear;
+  position: fixed;
 }
 
 .js-clock__text {
