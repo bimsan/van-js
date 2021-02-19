@@ -21,6 +21,7 @@ h1 {
 
 .showing {
   display: block;
+  margin-top: 20px;
 }
 
 @keyframes fadeIn {
@@ -46,7 +47,7 @@ h1 {
 
 .js-clock__text {
   color: white;
-  font-size: 100px;
+  font-size: 110px;
 }
 
 .js-clock {
@@ -58,15 +59,38 @@ h1 {
   height: 100px;
 }
 
+.js-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  height: 100px;
+}
+
 .greeting {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 80px;
+  margin-top: 25px;
+}
+
+.js-form input {
+  font-size: 25px;
+  width: 35%;
+  height: 50px;
+  border-style: double;
+  border-width: 7px;
+  border-color: #778beb;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  color: #ecf0f1;
 }
 
 .js-greetings {
-  color: #ecf0f1;
+  color: #f8a5c2;
   font-size: 50px;
   font-style: oblique;
 }
@@ -81,11 +105,14 @@ h1 {
 .js-toDoForm input {
   height: 30px;
   width: 60%;
+  color: #ecf0f1;
   background-color: rgba(0, 0, 0, 0);
   border-color: rgba(0, 0, 0, 0);
   border-bottom: 2.5px solid #ecf0f1;
   padding: 13px;
   font-size: 25px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .js-toDoList {
@@ -98,6 +125,7 @@ h1 {
 .toDo {
   color: #ecf0f1;
   font-size: 18px;
+  margin-top: 7px;
 }
 
 .js-weather {
@@ -106,4 +134,26 @@ h1 {
   top: 10px;
   right: 15px;
   font-size: 18px;
+}
+
+.toDo button {
+  border-radius: 45%;
+  border-style: ridge;
+  margin-left: 10px;
+}
+
+/* -------------------------------------------------------------------------------- */
+/* reset.css */
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #ecf0f1;
+  text-align: center;
+  font-size: 35px;
+}
+
+ul {
+  list-style: none;
 }
